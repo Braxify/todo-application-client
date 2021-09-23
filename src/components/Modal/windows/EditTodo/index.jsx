@@ -1,10 +1,9 @@
 import React, { useState, useEffect, useContext } from 'react';
-import { CirclePicker, GithubPicker, PhotoshopPicker } from 'react-color';
+import { CirclePicker } from 'react-color';
 import { format } from 'date-fns';
 
 import { AuthContext } from '../../../../context';
 import {
-  changeTodoColor,
   closeEditModal,
   createNewTodo,
   updateTodo,

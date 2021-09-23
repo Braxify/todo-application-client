@@ -24,9 +24,15 @@ export const WindowTitle = styled.div`
   text-align: center;
   padding: 24px 0;
   height: 77px;
+  @media (max-width: 320px) {
+    padding: 32px 0;
+  }
 `;
 export const WindowWrapper = styled.div`
   padding: 30px;
+  @media (max-width: 320px) {
+    padding-bottom: 14px;
+  }
 `;
 export const WindowForm = styled.div``;
 export const WindowInput = styled.input`

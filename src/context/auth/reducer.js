@@ -19,7 +19,7 @@ export const initialState = {
       type: '',
       isOpened: false,
       isCheck: false,
-      color: '',
+      color: '#4caf50',
       title: '',
       todoTitle: '',
       todoDate: new Date(),

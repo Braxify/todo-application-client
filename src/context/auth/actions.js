@@ -191,7 +191,3 @@ export async function updateTodo(dispatch, payload) {
     });
   }
 }
-
-export function changeTodoColor(dispatch, payload) {
-  dispatch({ type: 'CHANGE_TODO_COLOR', payload });
-}
