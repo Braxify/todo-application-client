@@ -19,7 +19,7 @@ export const initialState = {
       type: '',
       isOpened: false,
       isCheck: false,
-      color: '#4caf50',
+      color: '#ff9800',
       title: '',
       todoTitle: '',
       todoDate: new Date(),
@@ -74,6 +74,7 @@ export const AuthReducer = (state = initialState, action) => {
             todoTitle: action.payload.todoTitle,
             todoDescription: action.payload.todoDescription,
             todoDate: action.payload.todoDate,
+            color: action.payload.color,
           },
         },
       };
