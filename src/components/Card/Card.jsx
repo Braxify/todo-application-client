@@ -52,6 +52,7 @@ function Card({ id, date, text, color, isCheck, addNew }) {
       todoTitle,
       todoDescription,
       todoDate,
+      color,
     });
   };
   const remove = (
@@ -114,7 +115,7 @@ Card.propTypes = {
 };
 
 Card.defaultProps = {
-  color: 'orange',
+  color: '#ff9800',
   addNew: false,
   date: '',
 };
