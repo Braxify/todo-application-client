@@ -31,7 +31,7 @@ export const EditTodoWindow = () => {
 
   const [todo, setTodo] = useState({
     title: '',
-    color: 'orange',
+    color: '#ff9800',
     todoDate: format(new Date(), "yyyy-MM-dd'T'HH:mm"),
   });
 
@@ -52,7 +52,7 @@ export const EditTodoWindow = () => {
     } else if (ui.editTodoModal.type === 'ADD' && !isSaving) {
       setTodo({
         title: '',
-        color: ui.editTodoModal.color || 'orange',
+        color: ui.editTodoModal.color,
         todoDate: format(new Date(), "yyyy-MM-dd'T'HH:mm"),
       });
     }
